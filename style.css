@@ -3,6 +3,7 @@
     
 body{
     margin: 0;
+    padding-top: 5px;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
@@ -11,6 +12,7 @@ body{
 .container{
     width: 100%;
     margin: 0 auto;
+    background-color: blanchedalmond;
 } 
 
 nav{
@@ -37,15 +39,25 @@ nav img{
 }
 
 .signIn{
-    background-color: blue;
+    background-color: rgb(46, 107, 219);
     color: white;
     border: none;
     padding: 10px;
     border-radius: 5px;
     font-size: large;
     font-family: 'Roboto', sans-serif;
-    font-weight: 100px;
 }
+
+/*
+! To center a image inside a div, the parent element must be a block element
+*/
+.logo-container{
+    display: block;
+    margin-top: 4%;
+    text-align: center;
+}
+
+
 
 
 
