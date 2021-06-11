@@ -12,8 +12,8 @@
         
         <nav>
             <ul>
-                <li><a href="#">Gmail</a></li>
-                <li><a href="#">Images</a></li>
+                <li class="gmail"><a href="#">Gmail</a></li>
+                <li class="images"><a href="#">Images</a></li>
                 <li><img class="apps" src="svg/apps.svg" alt="apps"></li>
                 <li><button class="signIn">Sign In</button></li>
             </ul>
@@ -21,8 +21,50 @@
         
     
     </div>
-    <div class="logo-container">
-        <img src="img/googlelogo.png" alt="googlelogo">
+    
+
+    <!-- *Creating the searchbox and buttons -->
+    <div class="grid-container">
+        <div class="grid-item logo-container">
+            <img class="googlelogo" src="img/googlelogo.png" alt="googlelogo">
+        </div>
+        <div class="grid-item searchbox">
+            <img src="svg/search.svg" alt="search icon" class="searchIcon">
+            <input id="search-input" type="text">
+        </div>
+        <div class="grid-item searchbtn">
+            <button class="gsearchBtn" type="submit">Google Search</button>
+        </div>
+        <div class="grid-item suggestionbtn">
+            <button class="sgstBtn" type="button">I'm Feeling Lucky</button>
+        </div>
+        <div class="grid-item lang">
+            <p class="language"> Google Offered in: <a href=""> English </p> </a>
+        </div>
+    </div>
+
+    <!-- !footer -->
+
+    <div class="footer-container">
+        <div class="grid-item region">Bangladesh</div>
+        <!-- <div class="grid-item footer-content"></div> -->
+    </div>
+    <div class="footer-container2">
+        <div class="grid-item others">
+            <ul>
+                <li class="about"><a href="#" alt="">About</a></li>
+                <li class="advert"><a href="#" alt="">Advertisement</a></li>
+                <li class="business"><a href="#" alt="#">Business</a></li>
+                <li class="hws"><a href="#" alt="">How Search Works</a></li>
+            </ul>
+        </div>
+        <div class="grid-item privacy-container">
+            <ul>
+                <li class="privacy"><a href="#" alt="" >Privacy</a></li>
+                <li class="terms"><a href="#" alt="">Terms</a></li>
+                <li class="settings"><a href="#">Settings</a></li>
+            </ul>
+        </div>
     </div>
     
 </body>

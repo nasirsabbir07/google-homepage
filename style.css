@@ -31,15 +31,40 @@ nav li{
 
 nav a{
     color: black;
+    font-size: 12px;
     text-decoration: none;
+}
+
+.gmail{
+    padding-left: 10px;
+}
+
+.images{
+    padding-left: 10px;
+}
+
+.apps{
+    padding: 8px;
 }
 
 nav img{
     vertical-align: middle;
+    color: #5f6368;
+}
+
+nav img:hover{
+    border: 1px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+
+}
+
+nav a:hover{
+    text-decoration: underline;
 }
 
 .signIn{
-    background-color: rgb(46, 107, 219);
+    background-color: #4285f4;
     color: white;
     border: none;
     padding: 10px;
@@ -49,13 +74,206 @@ nav img{
 }
 
 /*
-! To center a image inside a div, the parent element must be a block element
+! To center an image inside a div, the parent element must be a block element
 */
+
+
+/* ?using grid to create search options */
+
+.grid-container{
+    display: grid;
+    margin-top: 10%; 
+    grid-template-columns: auto auto;
+    grid-auto-rows: auto auto auto;
+    grid-gap: 10px;
+    /*background-color: #2196F3;*/
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    /*text-align: center;*/
+    padding: 20px;
+}
+
 .logo-container{
-    display: block;
-    margin-top: 4%;
+    grid-column: 1 / span 2;
     text-align: center;
 }
+
+.searchbox input{ 
+    height: 35px;
+    width: 500px;
+    border: 1.5px solid rgb(226, 226, 231);
+    border-radius: 20px; 
+}
+
+.searchbox{
+    grid-column: 1 / span 2;
+    text-align: center; 
+}
+
+.searchbox .searchIcon{
+    vertical-align: middle;
+}
+
+
+
+.searchbtn{
+    text-align: end;
+    padding: 0px;
+}
+
+.lang{
+    grid-column: 1 / span 2;
+    text-align: center;
+}
+
+.gsearchBtn{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    height: 36px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    border: none;
+    background-color: #f8f9fa;
+}
+
+.suggestionbtn{
+    text-align: start;
+    padding: 0px;
+}
+
+.sgstBtn{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    height: 36px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    border: none;
+    background-color: #f8f9fa;
+}
+
+.gsearchBtn:hover {
+    border: 1px solid #dadce0;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    color: #202124;
+    
+}
+
+.sgstBtn:hover{
+    border: 1px solid #dadce0;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    color: #202124;
+    
+}
+
+.lang{
+    padding-top: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.footer-container{
+    display: grid;
+    margin-top: 20.2vh;
+    grid-template-columns: auto auto;
+}
+
+.region{
+    grid-column: 1 / span 2;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #dadce0;
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgba(0,0,0,.54);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer-container2{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.footer-container2 > div{
+    background-color: #f2f2f2;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.others ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.privacy-container ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.others a, .privacy-container a{
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgba(0,0,0,.54);
+}
+
+.footer-container2 .others{
+    text-align: start;
+}
+
+.footer-container2 .privacy-container{
+    text-align: end;
+}
+
+.others ul{
+    margin-top: 4px;
+    margin-bottom: 0px;
+    padding-left: 2px;
+}
+
+.privacy-container ul{
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+
+/*
+.other ul>li{
+    justify-self: left;
+}
+
+.privacy-container .privacy{
+    justify-content: left;
+}
+*/
+
+.advert, .business, .hws{
+    padding-left: 15px;
+}
+
+.privacy, .terms {
+    padding-right: 15px;
+}
+
+.others a:hover, .privacy-container a:hover{
+    text-decoration: underline;
+}
+
+/*
+! search box css
+*/
+
+
+
+
+
+
+
 
 
 
