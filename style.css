@@ -53,6 +53,7 @@ nav a{
 nav img{
     vertical-align: middle;
     color: #5f6368;
+    cursor: pointer;
 }
 
 nav img:hover{
@@ -74,6 +75,7 @@ nav a:hover{
     border-radius: 5px;
     font-size: large;
     font-family: 'Roboto', sans-serif;
+    cursor: pointer;
 }
 
 /*
@@ -168,6 +170,7 @@ nav a:hover{
     padding: 0px 16px;
     border: none;
     background-color: #f8f9fa;
+    cursor: pointer;
 }
 
 .suggestionbtn{
@@ -183,6 +186,7 @@ nav a:hover{
     padding: 0px 16px;
     border: none;
     background-color: #f8f9fa;
+    cursor: pointer;
 }
 
 .gsearchBtn:hover {
