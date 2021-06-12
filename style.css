@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 
-    
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
 body{
     margin: 0;
     padding-top: 5px;
@@ -206,6 +210,7 @@ nav a:hover{
     display: grid;
     margin-top: 20.2vh;
     grid-template-columns: auto auto;
+    grid-template-rows: auto 1fr auto;
 }
 
 .region{
@@ -223,6 +228,7 @@ nav a:hover{
 .footer-container2{
     display: grid;
     grid-template-columns: auto auto;
+    grid-template-rows: auto 1fr auto
 }
 
 .footer-container2 > div{
