@@ -12,7 +12,7 @@ body{
     grid-template-rows: auto 1fr auto;
 }
 
-
+/* !Navbar */
 .container{
     width: 100%;
     margin: 0 auto;
@@ -60,7 +60,6 @@ nav img:hover{
     border: 1px;
     background-color: #f2f2f2;
     border-radius: 50%;
-
 }
 
 nav a:hover{
@@ -89,18 +88,10 @@ nav a:hover{
     display: grid;
     margin-top: 5%;  
     grid-template-columns: auto auto;
-    
     grid-gap: 2px;
-    /*background-color: #2196F3;*/
     padding: 2px;
     height: 300px;
 }
-
-/* .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px;
-} */
 
 .logo-container{
     grid-column: 1 / span 2;
@@ -108,17 +99,7 @@ nav a:hover{
     height: 92px;
 }
 
-/* .searchbox input{ 
-    height: 35px;
-    width: 500px;
-    border: 1px solid #dadce0;
-    border-radius: 20px; 
-} */
-
-/* .searchbox input:hover{ 
-    box-shadow: 1px 1px 1px 1px rgba(88, 87, 87, 0.15);
-}*/
-
+/* *Search box */
 .searchbox{
     grid-column: 1 / span 2;
     display: grid;
@@ -151,15 +132,11 @@ nav a:hover{
     padding-left: 10px;
 }
 
+/**Search buttons*/
 
 .searchbtn{
     text-align: end;
     padding: 0px;
-}
-
-.lang{
-    grid-column: 1 / span 2;
-    text-align: center;
 }
 
 .gsearchBtn{
@@ -206,14 +183,17 @@ nav a:hover{
 }
 
 .lang{
+    grid-column: 1 / span 2;
+    text-align: center;
     padding-top: 0px;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
 }
 
+/*? Footers */
+
 .footer-container{
     display: grid;
-    /* margin-top: 20.2vh; */
     grid-template-columns: auto auto;
 }
 
@@ -284,16 +264,6 @@ nav a:hover{
     margin-bottom: 0px;
 }
 
-/*
-.other ul>li{
-    justify-self: left;
-}
-
-.privacy-container .privacy{
-    justify-content: left;
-}
-*/
-
 .advert, .business, .hws{
     padding-left: 15px;
 }
@@ -306,9 +276,7 @@ nav a:hover{
     text-decoration: underline;
 }
 
-/*
-! search box css
-*/
+
 
 
 
